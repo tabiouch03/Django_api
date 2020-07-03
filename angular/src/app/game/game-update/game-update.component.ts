@@ -40,6 +40,7 @@ export class GameUpdateComponent implements OnInit {
   updateGame() {
     // recupère les valeur du formulaire
     const data = {
+      id: this.dataGame.id,
       name: this.dataGame.name,
       genre: this.dataGame.genre,
       cover: this.dataGame.cover,

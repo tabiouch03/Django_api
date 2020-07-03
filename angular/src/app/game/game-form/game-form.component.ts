@@ -9,6 +9,7 @@ import { GameService } from '../game.service';
 })
 export class GameFormComponent implements OnInit {
   game: Game = {
+    id: 0,
     name: '',
     genre: Object,
     cover: '',
@@ -24,6 +25,7 @@ export class GameFormComponent implements OnInit {
 
   saveGame() {
     const data = {
+      id: this.game.id,
       name: this.game.name,
       genre: this.game.genre,
       cover: this.game.cover,
@@ -39,6 +41,7 @@ export class GameFormComponent implements OnInit {
   newGame() {
     this.isSubmit = false;
     this.game = {
+      id: 0,
       name: '',
       genre: Object,
       cover: '',

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { GameService } from './game.service'
+import { GameService } from './game.service';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Game } from './game.model';
 
 @Component({
   selector: 'app-game',
@@ -10,7 +12,7 @@ export class GameComponent implements OnInit {
 
   games = [];
 
-  constructor(private gameService: GameService) { }
+  constructor(private gameService: GameService,private router: Router,private route:ActivatedRoute) { }
 
   ngOnInit(): void {
     this.gameService.getGames().subscribe(games => {
@@ -19,5 +21,11 @@ export class GameComponent implements OnInit {
       
     });
   }
+
+  selectGame(game: Game): void {
+    console.log('Vous avez selectionné ' + game.name);
+    let link = ['games/' + game.id];
+    this.router.navigate(link);
+}
 
 }

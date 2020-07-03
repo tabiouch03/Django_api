@@ -10,6 +10,7 @@ import { GameDetailsComponent } from './game/game-details/game-details.component
 import { GameFormComponent } from './game/game-form/game-form.component';
 import { GameDeleteComponent } from './game/game-delete/game-delete.component';
 import { GameUpdateComponent } from './game/game-update/game-update.component';
+import { gameBorderCard } from "./border-card.directive";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GameUpdateComponent } from './game/game-update/game-update.component';
     GameDetailsComponent,
     GameFormComponent,
     GameDeleteComponent,
-    GameUpdateComponent
+    GameUpdateComponent,
+    gameBorderCard,
   ],
   imports: [
     BrowserModule,
