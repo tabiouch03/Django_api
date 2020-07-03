@@ -1,5 +1,5 @@
-from .models import Game
-from .serializers import GameSerializer
+from .models import Game, Genre
+from .serializers import GameSerializer, GenreSerializer
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status

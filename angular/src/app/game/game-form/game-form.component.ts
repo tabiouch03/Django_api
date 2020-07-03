@@ -10,7 +10,7 @@ import { GameService } from '../game.service';
 export class GameFormComponent implements OnInit {
   game: Game = {
     name: '',
-    genre: '',
+    genre: Object,
     cover: '',
     resume: ''
   }
@@ -40,7 +40,7 @@ export class GameFormComponent implements OnInit {
     this.isSubmit = false;
     this.game = {
       name: '',
-      genre: '',
+      genre: Object,
       cover: '',
       resume: ''
     }
