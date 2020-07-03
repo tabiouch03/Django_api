@@ -23,7 +23,6 @@ export class GameDetailsComponent implements OnInit {
   getGameById(id) {
     this.gameService.getGameById(id).subscribe(game => {
       this.currentGame = game;
-      console.log(game)
     }, error => {
       console.log(error);
 
