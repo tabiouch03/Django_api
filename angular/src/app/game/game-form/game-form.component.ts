@@ -46,7 +46,10 @@ export class GameFormComponent implements OnInit {
       genre: Object,
       cover: '',
       resume: ''
+
     }
+    
   }
+
 
 }

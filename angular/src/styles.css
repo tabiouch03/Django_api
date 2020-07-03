@@ -3,3 +3,9 @@
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/949221.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
