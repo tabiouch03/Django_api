@@ -1,0 +1,31 @@
+<div class="container">
+
+  <div class="submit-form">
+
+    <div *ngIf="!isSubmit">
+      <div class="form-group">
+        <label for="name">Nom</label>
+        <input type="text" class="form-control" id="name" required name="name" [(ngModel)]="dataGame.name">
+      </div>
+      <div class="form-group">
+        <label for="genre">Genre</label>
+        <input type="text" class="form-control" id="genre" required name="genre" [(ngModel)]="dataGame.genre">
+      </div>
+      <div class="form-group">
+        <label for="cover">Cover</label>
+        <input type="text" class="form-control" id="cover" required name="cover" [(ngModel)]="dataGame.cover">
+      </div>
+      <div class="form-group">
+        <label for="resume">Resumé</label>
+        <textarea type="text" class="form-control" id="resume" required name="resume" [(ngModel)]="dataGame.resume"></textarea>
+      </div>
+      <button (click)="updateGame()" class="btn btn-success">Modifier</button>
+    </div>
+
+    <div *ngIf="isSubmit">
+        <h4>Le jeu a été modifié !</h4>
+        <a href="games/" class="badge badge-info">Retour a la liste des jeux</a>
+    </div>
+
+  </div>
+</div>
