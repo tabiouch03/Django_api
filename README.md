@@ -2,7 +2,11 @@
 
 ## Start Application and API
 
-##### installer les dépendances : ```cd angular``` , ```npm install```
+##### installer les dépendances : 
+```bash
+cd angular
+npm install
+```
 
 ##### Demarré l'api : ```cd django_api``` , ```py manage.py runserver```
 ##### Demarré l'application : ```cd angular``` , ```npm start```

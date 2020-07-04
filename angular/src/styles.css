@@ -8,4 +8,5 @@ body {
   background-image: url('https://wallpaperaccess.com/full/949221.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }

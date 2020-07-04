@@ -1,0 +1,10 @@
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-size: 36px;
+  color: white;
+}
