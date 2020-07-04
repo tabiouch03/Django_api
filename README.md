@@ -4,12 +4,14 @@
 
 ## Langages et librairies utilisées
 
-###### Django ( FrameWork Python )
+###### Django ( Framework Python )
 ###### Angular ( Framework Javascript )
 ###### Bootstrap ( Librairie CSS )
 
 
 ## **Start Application and API**
+
+##### !! Python et NodeJS sont requis pour lancer le projet !!
 
 ##### **installer les dépendances :** 
 ```bash
