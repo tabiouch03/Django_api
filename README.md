@@ -17,6 +17,9 @@
 ```bash
 cd angular
 npm install
+cd .. 
+cd django_api 
+py -m pip install django-cors-headers django
 ```
 
 ##### **Demarré l'api :** 
