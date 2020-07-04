@@ -11,7 +11,7 @@
 
 ## **Start Application and API**
 
-##### [#f03c15] !! Python et NodeJS sont requis pour lancer le projet !!`#f03c15`
+##### !! Python et NodeJS sont requis pour lancer le projet !!
 
 ##### **installer les dépendances :** 
 ```bash
