@@ -1,6 +1,7 @@
 # Game API
 
 ## Start Application and API
+![alt text](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fbe721a3-fa20-46fd-92be-bdf95e351464/d6e8sy3-6b32f86d-3269-4ef6-bd6f-040becf113d3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZmJlNzIxYTMtZmEyMC00NmZkLTkyYmUtYmRmOTVlMzUxNDY0XC9kNmU4c3kzLTZiMzJmODZkLTMyNjktNGVmNi1iZDZmLTA0MGJlY2YxMTNkMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.lwpq3DZUbpMb1akNa8HepJVYCs6EMWUe-H8fy1hgazc)
 
 ##### installer les dépendances : 
 ```bash
