@@ -8,8 +8,16 @@ cd angular
 npm install
 ```
 
-##### Demarré l'api : ```cd django_api``` , ```py manage.py runserver```
-##### Demarré l'application : ```cd angular``` , ```npm start```
+##### Demarré l'api : 
+```bash
+cd django_api 
+py manage.py runserver
+```
+##### Demarré l'application : 
+```bash
+cd angular
+npm start
+```
 
 ## Routes and Request :
 
