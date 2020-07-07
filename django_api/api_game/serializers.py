@@ -4,10 +4,9 @@ from .models import Game, Genre
 class GameSerializer(serializers.ModelSerializer):
     class Meta:
       model = Game
-      fields = '__all__'
+      fields = ['name','genre','cover','resume','date']
       depth = 1
 
 class GenreSerializer(serializers.ModelSerializer):
     class Meta:
       model = Genre
-      fields = 'genre'
